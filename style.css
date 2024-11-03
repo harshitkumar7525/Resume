@@ -34,3 +34,11 @@ footer {
     margin: 0;
     top: .5px;
 }
+
+.pfp {
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    height: 7.5rem;
+    width: auto;
+}
