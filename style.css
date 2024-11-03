@@ -3,6 +3,9 @@
     font-family: 'Mukta','Times New Roman';
 }
 
+h6{
+    font-size: 1.5rem;
+}
 header {
     font-size: 2rem;
 }
@@ -33,4 +36,28 @@ footer {
     position: relative;
     margin: 0;
     top: .5px;
+}
+
+.pfp {
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    height: 10rem;
+    width: auto;
+    padding-right: 5px;
+    z-index: 2;
+}
+
+.summary p {
+    width: 85%;
+}
+
+.foot{
+    position: sticky;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 500;
 }
